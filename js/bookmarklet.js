@@ -1,0 +1,1 @@
+javascript:function one_s(){var d=document,z=d.createElement('scr'+'ipt'),b=d.body,l=d.location;try{if(!b)throw(0);z.setAttribute('src',l.protocol+'//1rsn.com/shorten.php?url='+encodeURIComponent(l.href)+'&bm=true');b.appendChild(z);}catch(e){alert('Please wait until the page has loaded.');}}one_s();void(0);
