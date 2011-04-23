@@ -73,8 +73,8 @@
 			<? while($row = $result->fetch_object()) { ?>
 				<tr>
 					<td><?= $row->shortdate ?></td>
-					<td><a href="/<?= $row->slug ?>"><?= $row->slug ?></a></td>
-					<td><?= $row->url ?></td>
+					<td><?= $row->slug ?></td>
+					<td><a href="<?= $row->url ?>"><?= $row->url ?></a></td>
 					<td><?= $row->sum ?></td>
 					<td>
 						<a href="stats.php?id=<?= $row->id ?>">details</a>
